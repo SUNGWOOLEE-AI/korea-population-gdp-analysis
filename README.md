@@ -4,7 +4,16 @@
 
 함수의 변화율을 활용하여 한국의 인구 구조 변화와 경제성장률 간의 상관관계를 분석하는 인터랙티브 시각화 도구입니다.
 
-### 🔗 **라이브 데모**: [https://sungwoolee-ai.github.io/korea-population-gdp-analysis/](https://sungwoolee-ai.github.io/korea-population-gdp-analysis/)
+## 🚀 즉시 배포하기
+
+### GitHub Pages
+**라이브 데모**: [https://sungwoolee-ai.github.io/korea-population-gdp-analysis/](https://sungwoolee-ai.github.io/korea-population-gdp-analysis/)
+
+### Netlify 원클릭 배포
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/SUNGWOOLEE-AI/korea-population-gdp-analysis)
+
+### Vercel 원클릭 배포
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/SUNGWOOLEE-AI/korea-population-gdp-analysis)
 
 ## 📈 주요 분석 내용
 
@@ -65,10 +74,9 @@
 
 ## 🚀 사용 방법
 
-### 1. 온라인 접속
-```
-https://sungwoolee-ai.github.io/korea-population-gdp-analysis/
-```
+### 1. 온라인 접속 (추천)
+- **GitHub Pages**: https://sungwoolee-ai.github.io/korea-population-gdp-analysis/
+- **Netlify**: 위의 배포 버튼 클릭
 
 ### 2. 로컬 실행
 ```bash
@@ -82,21 +90,19 @@ cd korea-population-gdp-analysis
 open index.html
 ```
 
-### 3. GitHub Pages 설정
-1. Repository Settings → Pages
-2. Source: Deploy from a branch
-3. Branch: main, Folder: / (root)
-4. Save
-
 ## 📁 프로젝트 구조
 
 ```
 korea-population-gdp-analysis/
-├── index.html          # 메인 HTML 파일
-├── README.md           # 프로젝트 문서
-└── assets/            # 추가 자료 (선택적)
-    ├── data.json      # 원본 데이터
-    └── screenshots/   # 스크린샷
+├── index.html              # 메인 HTML 파일
+├── README.md               # 프로젝트 문서
+├── PRESENTATION_GUIDE.md   # 발표 가이드
+├── data.json              # 구조화된 데이터
+├── netlify.toml           # Netlify 배포 설정
+├── LICENSE                # MIT 라이선스
+└── .github/
+    └── workflows/
+        └── pages.yml      # GitHub Pages 자동 배포
 ```
 
 ## 📊 주요 수학적 모델
